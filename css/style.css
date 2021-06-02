@@ -31,7 +31,7 @@ header {
 #top {
   width: 100%;
   height: 500px;
-  background-image: url("pc_top.jpg");
+  background-image: url("../images/pc_top.jpg");
   /* ブラウザの幅いっぱい画像設定・以下3行 */
   background-size: cover;
   background-position: center;
@@ -162,11 +162,11 @@ main {
 #ser {
   display: flex;
   flex-direction: column;
-  background-image: url(pc_top_service.jpg);
+  background-image: url(../images/pc_top_service.jpg);
 }
 
 #rec {
-  background-image: url(pc_top_recruite.jpg);
+  background-image: url(../images/pc_top_recruite.jpg);
 }
 
 #ser h2,
@@ -198,7 +198,7 @@ main {
   height:40px;
   margin: 10px auto 0 auto;
   text-align: center;
-  background-image: url(square.png);
+  background-image: url(../tool/square.png);
   transition: 0.3s;
 }
 
@@ -239,7 +239,7 @@ main {
   cursor: pointer;
   border: none;
   padding: 1px;
-  background-image: url(square.png);
+  background-image: url(../tool/square.png);
 }
 
 
@@ -282,7 +282,7 @@ main {
 
 #blog table {
   margin: 30px auto 0 auto;
-  width: 430px;
+  max-width: 500px;
 }
 
 #blog table tr:hover {
@@ -301,6 +301,7 @@ main {
 #blog table td a{
   text-decoration: none;
   color: #201818;
+  font-size: 0.8rem;
 }
 
 #blog table .date {
@@ -694,7 +695,7 @@ main {
 #ser .box:hover {
   /* border: none;
   padding: 1px; */
-  background-image: url(square.png);
+  background-image: url(../tool/square.png);
 }
 
 #rec .box {
@@ -718,6 +719,18 @@ main {
 #blog {
   margin-top: 30px;
 }
+
+#blog table td {
+  padding: 8px 8px 8px 8px;
+  font-size: 0.7rem;
+}
+
+#blog table td a{
+  font-size: 0.7rem;
+  height: 10px;
+  line-height: 20px;
+}
+
 
 #blog .blogLink {
   display: none;
