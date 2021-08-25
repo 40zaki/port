@@ -2,230 +2,799 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-<!-- index不可 -->
-  <meta name="robots" content="noindex" />
+  <title>matti totti</title>
 
-  <title>Hit Role（ヒットロール）</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/riset.css">
+  <link rel="stylesheet" href="css/sp.css">
 
-<!-- フォント（細字）Julius Sans One-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
-<!-- フォント（太字）Archivo+Black -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-<!-- フォント（それ以外）Sawarabi Gothic -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
-<!-- フォント（ｈ2用） Ubuntu-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- kosugiフォント -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
 
+  <!-- OpenSansフォント -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- slick -->
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="slick/slick.css">
+  <script src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+
+</head>
 <body>
-
-  <!-- ヘッダー --------------------------------------------------- -->
   <div id="wrapper">
-  <header>
-    <div id="top">
-    <p>採用のお困りごとを共に考え、解決する</p>
-    <h1>Hit Role Inc.</h1>
-  </div>
+    <!-- header -->
+    <header>
+      <div class="header_left">
 
-  <div class="hamburger">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
+              <!-- ハンバーガーメニュー -->
+              <div class="hamburger-menu">
+                <input type="checkbox" id="menu-btn-check">
+                <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                <!--ここからメニュー-->
+                <div class="menu-content">
+                    <div>
+                      <input  id="acd_check6" class="acd_check" type="checkbox">
+                      <label class="acd_label" for="acd_check6">
+                          <p><span>TEXTTEXT</span>　　テキスト</p>
+                          <img class="arrow" src="tools/down_arrow.png" alt="矢印">
+                      </label>
+                      <div class="acd_content">
+                        <div class="sptop_menu"><a href="#"><img src="images/img_5.png">テキストテキスト</a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                      </div>
+                    </div>
+                    <div>
+                      <input  id="acd_check7" class="acd_check" type="checkbox">
+                      <label class="acd_label" for="acd_check7">
+                        <p><span>TEXTTEXT</span>　　テキスト</p>
+                        <img class="arrow" src="tools/down_arrow.png" alt="矢印">
+                      </label>
+                      <div class="acd_content">
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                      </div>
+                    </div>
+                    <div>
+                      <input  id="acd_check8" class="acd_check" type="checkbox">
+                      <label class="acd_label" for="acd_check8">
+                          <p><span>TEXTTEXT</span>　　テキスト</p>
+                          <img class="arrow" src="tools/down_arrow.png" alt="矢印">
+                      </label>
+                      <div class="acd_content">
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                      </div>
+                    </div>
+                    <div>
+                      <input  id="acd_check9" class="acd_check" type="checkbox">
+                      <label class="acd_label" for="acd_check9">
+                        <p><span>TEXTTEXT</span>　　テキスト</p>
+                        <img class="arrow" src="tools/down_arrow.png" alt="矢印">
+                      </label>
+                      <div class="acd_content">
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                      </div>
+                    </div>
+                    <div>
+                      <input  id="acd_check10" class="acd_check" type="checkbox">
+                      <label class="acd_label" for="acd_check10">
+                          <p><span>TEXTTEXT</span>　　テキスト</p>
+                          <img class="arrow" src="tools/down_arrow.png" alt="矢印">
+                      </label>
+                      <div class="acd_content">
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                      </div>
+                    </div>
+                    <div>
+                      <input  id="acd_check11" class="acd_check" type="checkbox">
+                      <label class="acd_label" for="acd_check11">
+                        <p><span>TEXTTEXT</span>　　テキスト</p>
+                        <img class="arrow" src="tools/down_arrow.png" alt="矢印">
+                      </label>
+                      <div class="acd_content">
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                        <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+        <!--ここまでハンバーガーメニュー-->
 
-  <!-- スマホ用グローバルメニュー -->
-  <nav class="sp_gmenu">
-    <ul class="menu1">
-      <li><a href="#">TOP<br><span>トップ</span></a></li>
-      <li><a href="#">SERVICE<br><span>サービス</span></a></li>
-      <li><a href="#">COMPANY<br><span>会社概要</span></a></li>
-      <li><a href="#">RECRUIT<br><span>採用情報</span></a></li>
-      <li><a href="#">BLOG<br><span>ブログ</span></a></li>
-      <li><a href="#">CONTACT<br><span>お問い合わせ</span></a></li>
-    </ul>
-    <ul class="menu2">
-      <li><a href="#">ハレダス</a></li>
-      <li><a href="#">サイトポリシー</a></li>
-    </ul>
-  </nav>
+          <!-- ロゴ -->
+          <h1><a href="#"><img src="tools/logo.png" alt="matti totti"></a></h1>
+        </div><!-- header_left 閉じ -->
 
-  <!-- PC-TOP用メニュー -->
-  <nav class="top_nav">
-    <ul>
-      <li><a href="#">SERVICE<br><span>サービス</span></li></a></li>
-      <li><a href="#">COMPANY<br><span>会社概要</span></a></li>
-      <li><a href="#">RECRUIT<br><span>採用情報</span></a></li>
-      <li><a href="#">BLOG<br><span>ブログ</span></a></li>
-      <li><a href="#">CONTACT<br><span>お問い合わせ</span></a></li>
-    </ul>
-  </nav>
-</header>
+        <div class="header_icon">
+          <!-- カート -->
+          <img  id ="cart" src="tools/cart.png" alt="買い物かご"></li>
+          <!-- 検索アイコン -->
+          <div class="search_icon"><i class="fas fa-search fa-2x"></i></div>
+        </div>
 
-<!-- メインコンテンツ --------------------------------------------- -->
-<main>
+      </header>
+      <!-- ヘッダーここまで -->
 
-<!-- VISION -->
-<section id="vision" class="box">
-  <h2>VISION</h2>
-  <p id="copy">
-    <picture>
-      <source media="(min-width: 900px)" srcset="tool/pc_top_copy.png">
-      <img src="tool/sp_top_copy.png" alt="いいほうに、歩き出そう。">
-  </picture>
-  </p>
 
-  <p>
-    すべての人が輝ける場所を提供する。
-  </p>
+      <div class="header_right">
+          <div class="right_left">
+            <!-- ショップ内検索 -->
+            <form action="http://" method="get">
+              <input id="page_search" type="search" name="search" placeholder=" 　ショップ内検索">
+              <input id="btn_search" type="submit" class="fas fa-lg" value="&#xf002;" alt="検索">
+            </form>
 
-  <p>
-  年齢や国籍を問わず、すべての人が、<br class="pc">
-    楽しんで自分の役割を果たせる仕事に出会う。
-  </p>
+            <!-- ホットワード -->
+            <div class="hw">
+              <p class="hotword">HOT<br class="er">　WORD：</p>
+              <ul id="hw">
+                <li><a href="#">テキスト<br class="er">テキスト</a></li>
+                <li><a href="#">テキスト<br class="er">テキスト</a></li>
+                <li><a href="#">テキスト</a></li>
+                <li><a href="#">テキスト</a></li>
+              </ul>
+            </div>
+          </div>
+      </div>
 
-  <p>  
-    そんな夢が実現できたら、企業も成長の一途を辿ること請け合いです。
-  </p>
+      <!-- ナビゲーションメニュー -->
+      <nav>
+        <ul>
+          <li><a href="#">TEXT<br><span>テキスト</span></a></li>
+          <li><a href="#">TEXT<br><span>テキスト</span></a></li>
+          <li><a href="#">TEXT<br><span>テキスト</span></a></li>
+          <li><a href="#">TEXT<br><span>テキスト</span></a></li>
+          <li><a href="#">TEXT<br><span>テキスト</span></a></li>
+          <li><a href="#">TEXT<br><span>テキスト</span></a></li>
+          <li><a href="#">TEXT<br><span>テキスト</span></a></li>
+        </ul>
+      </nav>
 
-   <p>
-    だから私たちはこの夢をビジョンとして掲げ、<br class="pc">
-    企業の・求職者の悩みに正面から向き合っていきます。
-    </p>
+    <!-- main -->
+    <main>
+      <!-- スライダー -->
+      <div class="slick_wrapper">
+        <ul id="slick_slider">
+          <li><img alt="画像1" src="images/slider_1.jpg" /></li>
+          <li><img alt="画像2" src="images/slider_2.jpg" /></li>
+          <li><img alt="画像3" src="images/slider_3.jpg" /></li>
+          <li><img alt="画像4" src="images/slider_4.jpg" /></li>
+        </ul>
+      </div>
 
-</section>
+      <!-- contents_1 -->
+      <section id="cont1">
+        <h2>TEXT<br><span>テキスト</span></h2>
+        <table>
+          <tr>
+            <td>2021/03/15</td>
+            <td class="cont1_text">テキストテキスト</td>
+          </tr>
+          <tr>
+            <td>2021/02/15</td>
+            <td class="cont1_text">テキストテキストテキストテキスト</td>
+          </tr>
+          <tr>
+            <td class="border_none">2021/01/13</td>
+            <td class="cont1_text border_none">テキストテキストテキストテキストテキストテキスト</td>
+          </tr>
+        </table>
+      </section>
 
-<div class="art" class="box">
+      <!-- contents_2 -->
+      <ul id="cont2_slider">
+        <li><a href="https://ichiba-smp.faq.rakuten.net/category/rakuten-super-point"><img alt="バナー1" src="tools/rakuten.png" /></a></li>
+        <li><a href="https://ichiba-smp.faq.rakuten.net/category/rakuten-super-point"><img alt="バナー2" src="tools/rakuten.png" /></a></li>
+        <li><a href="https://ichiba-smp.faq.rakuten.net/category/rakuten-super-point"><img alt="バナー3" src="tools/rakuten.png" /></a></li>
+        <li><a href="https://ichiba-smp.faq.rakuten.net/category/rakuten-super-point"><img alt="バナー4" src="tools/rakuten.png" /></a></li>
+      </ul>
 
-<!-- SERVICE -->
-<article id="ser" class="box">
-<h2>SERVICE</h2>
-<p>
-  ヒットロールがお手伝いできる<br>
-  サービス内容を詳しくご覧いただけます。
-  </p>
-  <div class="box">
-  <img src="tool/arrow2.svg" alt=""><a href="#">　サービスを詳しくみる</a>
-  </div>
-</article>
+      <!-- contents_3 -->
+      <section id="cont3">
+        <h2>TEXT TEXT<br><span>テキスト</span></h2>
+        <ul id="cont3_slider">
+          <li><a href="#"><img alt="写真1" src="images/img_1.png" /></a></li>
+          <li><a href="#"><img alt="写真2" src="images/img_2.png" /></a></li>
+          <li><a href="#"><img alt="写真3" src="images/img_3.png" /></a></li>
+          <li><a href="#"><img alt="写真4" src="images/img_4.png" /></a></li>
+          <li><a href="#"><img alt="写真3" src="images/img_3.png" /></a></li>
+          <li><a href="#"><img alt="写真4" src="images/img_4.png" /></a></li>
+        </ul>
+      </section>
 
-<!-- RECRUIT -->
-<article id="rec" class="box">
-  <h2>RECRUIT</h2>
-  <p>
-    現在、ヒットロールで募集中の<br>
-    求人情報についてご覧いただけます。
-  </p>
+      <!-- contents_4 -->
+      <section id="cont4">
+        <h2>TEXT TEXT<br><span>テキスト</span></h2>
+        <ul id="cont4_slider">
+          <li>
+            <a href="#">
+              <img alt="写真5" src="images/img_5.png" />
+              <h3>テキストテキスト</h3>
+              <p>
+                【テキスト】<br>
+                  テキストテキストテキストテキストテキストテキストテキスト<br><br>Yテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真5" src="images/img_5.png" />
+              <h3>テキストテキスト</h3>
+              <p>
+                【テキスト】<br>
+                  テキストテキストテキストテキストテキストテキストテキスト<br><br>Yテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真5" src="images/img_5.png" />
+              <h3>テキストテキスト</h3>
+              <p>
+                【テキスト】<br>
+                  テキストテキストテキストテキストテキストテキストテキスト<br><br>Yテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真5" src="images/img_5.png" />
+              <h3>テキストテキスト</h3>
+              <p>
+                【テキスト】<br>
+                  テキストテキストテキストテキストテキストテキストテキスト<br><br>Yテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真5" src="images/img_5.png" />
+              <h3>テキストテキスト</h3>
+              <p>
+                【テキスト】<br>
+                  テキストテキストテキストテキストテキストテキストテキスト<br><br>Yテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真5" src="images/img_5.png" />
+              <h3>テキストテキスト</h3>
+              <p>
+                【テキスト】<br>
+                  テキストテキストテキストテキストテキストテキストテキスト<br><br>Yテキスト
+              </p>
+            </a>
+          </li>
+        </ul>
+      </section>
 
-  <div class="box">
-    <img src="tool/arrow2.svg" alt=""><a href="#">　採用情報を詳しくみる</a>
-  </div>
+      <!-- contents_5 -->
+      <section id="cont5">
+        <h2>TEXT TEXT<br><span>テキストテキストテキスト</span></h2>
+        <ul id="cont5_slider">
+          <li>
+            <a href="#">
+              <img class="crown" src="tools/crown_1.png" alt="1位">
+              <img alt="写真5" src="images/img_5.png" />
+              <h3>テキストテキスト</h3>
+              <p>
+                【テキスト】<br>
+                  テキストテキストテキストテキストテキストテキストテキスト<br><br>Yテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="crown" src="tools/crown_2.png" alt="2位">
+              <img alt="写真5" src="images/img_5.png" />
+              <h3>テキストテキスト</h3>
+              <p>
+                【テキスト】<br>
+                  テキストテキストテキストテキストテキストテキストテキスト<br><br>Yテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img  class="crown" src="tools/crown_3.png" alt="3位">
+              <img alt="写真5" src="images/img_5.png" />
+              <h3>テキストテキスト</h3>
+              <p>
+                【テキスト】<br>
+                  テキストテキストテキストテキストテキストテキストテキスト<br><br>Yテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img  class="crown" src="tools/crown_4.png" alt="4位">
+              <img alt="写真5" src="images/img_5.png" />
+              <h3>テキストテキスト</h3>
+              <p>
+                【テキスト】<br>
+                  テキストテキストテキストテキストテキストテキストテキスト<br><br>Yテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img  class="crown" src="tools/crown_5.png" alt="5位">
+              <img alt="写真5" src="images/img_5.png" />
+              <h3>テキストテキスト</h3>
+              <p>
+                【テキスト】<br>
+                  テキストテキストテキストテキストテキストテキストテキスト<br><br>Yテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img  class="crown" src="tools/crown_6.png" alt="6位">
+              <img alt="写真5" src="images/img_5.png" />
+              <h3>テキストテキスト</h3>
+              <p>
+                【テキスト】<br>
+                  テキストテキストテキストテキストテキストテキストテキスト<br><br>Yテキスト
+              </p>
+            </a>
+          </li>
+
+        </ul>
+      </section>
+
+      <!-- contents_6 -->
+      <section id="cont6">
+        <h2>TEXT TEXT<br><span>テキストテキストテキスト</span></h2>
+        <div class="top">
+            <input  id="acd_check1" class="acd_check" type="checkbox">
+            <label class="acd_label" for="acd_check1">
+                <img class="stall" src="images/img_6.png" alt="写真6">
+                <p><span>TEXTTEXT</span>　　テキスト</p>
+                <img class="arrow" src="tools/down_arrow.png" alt="矢印">
+            </label>
+            <div class="acd_content">
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+            </div>
+        </div>
+        <div>
+            <input  id="acd_check2" class="acd_check" type="checkbox">
+            <label class="acd_label" for="acd_check2">
+                <img class="stall" src="images/img_5.png" alt="写真5">
+                <p><span>TEXTTEXT</span>　　テキスト</p>
+                <img class="arrow" src="tools/down_arrow.png" alt="矢印">
+            </label>
+            <div class="acd_content">
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+            </div>
+        </div>
+        <div>
+            <input  id="acd_check3" class="acd_check" type="checkbox">
+            <label class="acd_label" for="acd_check3">
+                <img class="stall" src="images/img_7.png" alt="写真7">
+                <p><span>TEXTTEXT</span>　　テキスト</p>
+                <img class="arrow" src="tools/down_arrow.png" alt="矢印">
+            </label>
+            <div class="acd_content">
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+            </div>
+        </div>
+        <div>
+            <input  id="acd_check4" class="acd_check" type="checkbox">
+            <label class="acd_label" for="acd_check4">
+                <img class="stall" src="images/img_8.png" alt="写真8">
+                <p><span>TEXTTEXT</span>　　テキスト</p>
+                <img class="arrow" src="tools/down_arrow.png" alt="矢印">
+            </label>
+            <div class="acd_content">
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+            </div>
+        </div>
+        <div> 
+            <input  id="acd_check5" class="acd_check" type="checkbox">
+            <label class="acd_label last_label" for="acd_check5">
+                <img class="stall" src="images/img_6.png" alt="写真6">
+                <p><span>TEXTTEXT</span>　　テキスト</p>
+                <img class="arrow" src="tools/down_arrow.png" alt="矢印">
+            </label>
+            <div class="acd_content last_acd">
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+              <div><a href="#">テキスト<img src="tools/triangle.png" alt="矢印"></a></div>
+            </div>
+        </div>
+        </section>
+      
+      <!-- contents_7 -->
+      <section id="cont7">
+        <h2>TEXT<br><span>テキストテキスト</span></h2>
+
+        <ul class="box cont7_slider">
+          <li><a href="#"><img src="images/img_9.png" alt="写真9"></a></li>
+          <li><a href="#"><img src="images/img_10.png" alt="写真10"></a></li>
+          <li><a href="#"><img src="images/img_11.png" alt="写真11"></a></li>
+          <li><a href="#"><img src="images/img_12.png" alt="写真12"></a></li>
+          <li><a href="#"><img src="images/img_13.png" alt="写真13"></a></li>
+          <li><a href="#"><img src="images/img_14.png" alt="写真14"></a></li>
+          <li><a href="#"><img src="images/img_15.png" alt="写真15"></a></li>
+        </ul>
+      </section>
+
+      <!-- contents_8 -->
+      <section id="cont8">
+        <h2>TEXT<br><span>テキストテキスト</span></h2>
+
+        <ul>
+          <li class="tab">TEXT<br><span>テキスト</span></li>
+          <li class="tab">TEXT<br><span>テキスト</span></li>
+          <li class="tab">TEXT<br><span>テキスト</span></li>
+          <li class="tab">TEXT<br><span>テキスト</span></li>
+          <li class="tab">TEXT<br><span>テキスト</span></li>
+        </ul>
+
+      <!-- タブ切替えで表示-->
+      <div class="panel-group">
+          <div class="panel">
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+          </div>
+          <div class="panel">
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+          </div>
+          <div class="panel">
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+          </div>
+          <div class="panel">
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+          </div>
+          <div class="panel">
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+            <div><a href="#">￥テキスト～<img src="tools/triangle.png" alt="矢印"></a></div>
+          </div>
+      </div>
+      </section>
+
+      <!-- contents_9 -->
+      <section id="cont9">
+        <h2>TEXTTEXT<br><span>テキストテキストテキスト</span></h2>
+        <ul id="cont9_slider">
+          <li>
+            <a href="#">
+              <img alt="写真16" src="images/img_16.png" />
+              <p>
+                  テキストテキストテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真17" src="images/img_17.png" />
+              <p>
+                テキストテキスト
+              </p>
+            </a></li>
+          <li>
+            <a href="#">
+              <img alt="写真18" src="images/img_18.png" />
+            </a>
+            <p>
+             テキスト
+            </p>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真19" src="images/img_19.png" />
+              <p>
+                テキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真1" src="images/img_1.png" />
+              <p>
+                テキストテキストテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真2" src="images/img_2.png" />
+              <p>
+                テキストテキスト
+              </p>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- contents_10 -->
+      <section id="cont10">
+        <h2>TEXTTEXTTEXT<br><span>テキストテキスト</span></h2>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <ul id="cont10_slider">
+          <li><a href="#"><img alt="写真20" src="images/img_20.png" /></a></li>
+          <li><a href="#"><img alt="写真21" src="images/img_21.png" /></a></li>
+          <li><a href="#"><img alt="写真22" src="images/img_22.png" /></a></li>
+          <li><a href="#"><img alt="写真1" src="images/img_1.png" /></a></li>
+          <li><a href="#"><img alt="写真3" src="images/img_3.png" /></a></li>
+          <li><a href="#"><img alt="写真4" src="images/img_4.png" /></a></li>
+        </ul>
+      </section>
+
+      <!-- contents_11 -->
+      <section id="cont11">
+        <h2>TEXT<br><span>テキスト</span></h2>
+        <ul id="cont11_slider">
+          <li>
+            <a href="#">
+              <img alt="写真23" src="images/img_23.png" />
+              <h3>テキストテキスト<br>テキストテキスト</h3>
+              <p>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真24" src="images/img_24.png" />
+              <h3>テキストテキスト<br>テキストテキスト</h3>
+              <p>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真25" src="images/img_25.png" />
+              <h3>テキストテキスト<br>テキスト</h3>
+              <p>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真26" src="images/img_26.png" />
+              <h3>テキストテキスト<br>テキストテキスト</h3>
+              <p>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真16" src="images/img_16.png" />
+              <h3>テキストテキスト<br>テキストテキスト</h3>
+              <p>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img alt="写真17" src="images/img_17.png" />
+              <h3>テキストテキスト<br>テキストテキスト</h3>
+              <p>
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- contents_12 -->
+      <section id="cont12">
+        <h2>TEXTTEXT<br><span>テキスト</span></h2>
+        <ul id="cont12_slider">
+          <li><a href="#"><img alt="写真27" src="images/img_27.png" /></a></li>
+          <li><a href="#"><img alt="写真28" src="images/img_28.png" /></a></li>
+          <li><a href="#"><img alt="写真29" src="images/img_29.png" /></a></li>
+          <li><a href="#"><img alt="写真30" src="images/img_30.png" /></a></li>
+          <li><a href="#"><img alt="写真28" src="images/img_28.png" /></a></li>
+          <li><a href="#"><img alt="写真29" src="images/img_29.png" /></a></li>
+        </ul>
+      </section>
   
-</article>
-</div>
+    </main>
 
-<!-- ハレダス -->
-  <article id="hare" class="box">
-    <a href="#">
-    <picture>
-      <source media="(min-width: 900px)"  srcset="images/pc_haredas.png">
-      <img src="images/sp_haredas.png">
-    </picture>
-  </a>
-  </article>
+    <!-- footer -->
+    <footer>
+      <div class="footer_top">
+        <div class="footer_left">
+          <a href="#"><img src="tools/logo.png" alt="matti totti"></a>
+          <p>テキストテキスト<br>テキストテキストテキストテキスト</p>
+        </div>
 
-<!-- ブログ -->
-  <article id="blog" class="box">
-  <h2>BLOG</h2>
+        <div class="footer_left2">
+          <a  class="icon" href="#"><i class="fas fa-phone-volume fa-lg fa-rotate-45"></i> 0120-123-456</a>
+          <a class="icon" href="#"><i class="far fa-envelope fa-lg"></i> お問い合わせ</a>
+        </div>
+     </div>
 
-  <table>
-<tr>
-  <td class="date">21.03.12</td>
-  <td><a href="#">給料に対する考え方の違い</a></td>
-  <td><a href="#"><img src="tool/arrow.svg" alt=""></a></td>
-</tr>
-<tr>
-  <td clas="date">21.03.12</td>
-  <td><a href="#">先日見たアニメが面白かった件</a></td>
-  <td><a href="#"><img src="tool/arrow.svg" alt=""></a></td>
-</tr>
-<tr>
-  <td class="date">21.03.12</td>
-  <td><a href="#">従業員から「給料上げて」と言われた時の対処法</a></td>
-  <td><a href="#"><img src="tool/arrow.svg" alt=""></a></td>
-</tr>
-  </table>
-    
-    <a href="#" class="blogLink">ブログをもっと見る</a>
+      <div class="footer_bottom">
+        <p>&copy;2005-2021 texttexttext & texttext CO.,LTD.</p>
+        <div class="footer_right">
+          <p>テキストテキストテキストテキストテキスト</p>
+          <img src="tools/logo.png" alt="matti totti">
+        </div>
+      </div>
 
-  </article>
+      <div id="pagetop"><img src="tools/page_top.png" alt="PAGE TOPへ戻る"></div>
 
-<!-- CONTACT -->
-  <article id="cont" class="box">
-    <h2>CONTACT</h2>
-    <p>
-      採用のお困りごとから、面接代行、研修代行、<br>
-      採用サイト制作まで、お気軽にお申し付けください。
-    </p>
-
-    <a href="#">お問い合わせはこちら</a>
-
-  </article>
-     
-</main>
-
-<!-- フッター --------------------------------------------------- -->
-<footer>
-  <div class="footwrap">
-  <div class="foot_tool">
-
-  <nav class="footer_nav">
-  <ul>
-    <li id ="logo">Hit Roll Inc.</li>
-    <li><a href="#"><span class="circle"></span><span class="inner-text">SERVICE</span></a></li>
-    <li><a href="#"><span class="circle"></span><span class="inner-text">COMPANY</span></a></li>
-    <li><a href="#"><span class="circle"></span><span class="inner-text">RECRUIT</span></a></li>
-    <li><a href="#"><span class="circle"></span><span class="inner-text"><span class="pc">&nbsp;&nbsp;</span>BLOG</span></a></li>
-    <li><a href="#"><span class="circle"></span><span class="inner-text">CONTACT</span></a></li>
-  </ul>
-</nav>
-
-<div class="company">
-    <p>
-      <span>ヒットロール株式会社</span><br>
-      〒531-0072 大阪府大阪市北区豊崎3-15-5 TKビル2F<br>
-      TEL:06-6136-5534<br>
-      MAIL:info@hitrole.co.jp<br>
-      </p>
-</div>
-
-  <div class="policy">
-    <a href="#">サイトポリシー</a>
-  </div>
-
-  <p class="copyright">copyright  &copy;  Hit Role Inc. All rights reserved.</p>
-
-  </div>
-</div>
-</footer>
-</div>
-
-<!-- ｊQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<!-- ScrollReveal -->
-<script src="https://unpkg.com/scrollreveal" src="scrollreveal.js"></script>
-<script>
-  'use strict';
-  ScrollReveal().reveal('.box',{ duration: 1100,viewFactor: 0.4,reset: false });
-</script>
-<!-- ハンバーガーメニュー -->
-<script src="js/top.js"></script>
+    </footer>
+  </div>  
 </body>
 </html>
