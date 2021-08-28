@@ -286,7 +286,16 @@
   #cont4_slider,
   #cont5_slider{
     width: 90%;
+    font-size: 0.8rem;
   }
+
+  #cont4_slider li p,
+#cont5_slider li p{
+  margin: 30px auto 0 auto;
+  width: 120px;
+  line-height: 25px;
+}
+
 
   /* contents_6 */
   .acd_content{
@@ -297,6 +306,15 @@
   .acd_content div a{
     padding: 0 30px 0 30px;
   }
+
+  .acd_label span{
+    font-size: 1.3rem;
+  }
+
+  .acd_label p{
+    font-size: 0.8rem;
+  }
+  
   
   /* contents_7 */
   #cont7 .box{
@@ -348,6 +366,8 @@
     width: 90%;
     text-align: left;
     margin-left: 25px;
+    font-size: 0.8rem;
+    line-height: 20px;
   }
   
   /* footer */
@@ -401,6 +421,13 @@
   .footer_right img{
     order: 1;
   }
+
+  #pagetop{
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+  }
+  
 
   }
 
